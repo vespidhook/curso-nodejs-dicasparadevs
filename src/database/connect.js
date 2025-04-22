@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const connectToDatabase = async () => {
   try {
     await mongoose.connect(
-      `mongodb+srv://${process.env.MONGO_USERNAME}:${process.env.MONGO_PASSWORD}@cursonodejsdicasparadev.3apwdkw.mongodb.net/?retryWrites=true&w=majority&appName=CursoNodeJsDicasParaDevs`
+      `mongodb+srv://${process.env.MONGO_USERNAME}:${process.env.MONGO_PASSWORD}@cluster0.ifjpzqm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`
     );
 
     console.log('✅ Successfully connected to the database');
